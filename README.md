@@ -1,5 +1,4 @@
-# matematika
-Matematik amallar
+# Matematik amallar
 
 composer require matematik/amallar:"*"
 
