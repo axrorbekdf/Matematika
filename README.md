@@ -1,12 +1,11 @@
 # Matematik amallar
 
-Either run
+Yuklab olish
 ```
 composer require matematik/amallar:"*"
 ```
 
-or add
-
+Ishlatish
 ```php
 use matematika\Amal;
 ...
