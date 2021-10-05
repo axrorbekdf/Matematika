@@ -1,6 +1,8 @@
 # matematika
 Matematik amallar
 
+composer require matematik/amallar:"*"
+
 use matematika\Amal;
 
 $new = new Amal();
