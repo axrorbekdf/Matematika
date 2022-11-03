@@ -7,9 +7,13 @@ composer require matematik/amallar:"*"
 
 Ishlatish
 ```php
-use matematika\Amal;
-...
+
 <?php
+    
+    require 'vendor/autoload.php';
+
+    use matematika\Amal;
+    
     $new = new Amal();
 
     $new->a = 25;
@@ -17,4 +21,9 @@ use matematika\Amal;
 
     echo $new->run('+');
 ?>
+```
+
+Natija
+```
+48
 ```
