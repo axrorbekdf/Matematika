@@ -1,6 +1,6 @@
 <?php
 
-    namespace matematika\calc;
+    namespace Matematika\Calc;
 
     class Qoshish{
 

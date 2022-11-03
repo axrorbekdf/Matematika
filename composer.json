@@ -5,13 +5,13 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "matematika\\": "src/"
+            "Matematika\\": "src/"
         }
     },
     "authors": [
         {
-            "name": "Admin Admin",
-            "email": "admin@gmail.com"
+            "name": "Ahrorbek Davronov",
+            "email": "axrorbekdf@gmail.com"
         }
     ],
     "minimum-stability": "stable",

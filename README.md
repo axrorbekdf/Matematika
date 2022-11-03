@@ -12,7 +12,7 @@ Ishlatish
     
     require 'vendor/autoload.php';
 
-    use matematika\Amal;
+    use Matematika\Amal;
     
     $new = new Amal();
 

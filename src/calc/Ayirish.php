@@ -1,8 +1,10 @@
 <?php
 
-    namespace matematika\calc;
+    namespace Matematika\Calc;
 
-    class Ayirish{
+    use Matematika\Interface\BaseInterface;
+
+    class Ayirish implements BaseInterface{
 
         public function run($a, $b){
             return $a-$b;
