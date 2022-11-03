@@ -2,7 +2,9 @@
 
     namespace Matematika\Calc;
 
-    class Qoshish{
+    use Matematika\Interface\BaseInterface;
+
+    class Qoshish implements BaseInterface{
 
         public function run($a, $b){
             return $a+$b;

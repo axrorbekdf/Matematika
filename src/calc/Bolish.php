@@ -2,7 +2,9 @@
 
     namespace Matematika\Calc;
 
-    class Bolish{
+    use Matematika\Interface\BaseInterface;
+
+    class Bolish  implements BaseInterface{
 
         public function run($a, $b){
             if($b == 0 )

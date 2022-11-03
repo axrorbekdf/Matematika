@@ -5,6 +5,7 @@
  interface BaseInterface{
 
     public function run($a, $b);
+    
  }
 
 

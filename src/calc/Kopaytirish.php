@@ -2,7 +2,9 @@
 
     namespace Matematika\Calc;
 
-    class Kopaytirish{
+    use Matematika\Interface\BaseInterface;
+
+    class Kopaytirish implements BaseInterface{
 
         public function run($a, $b){
             return $a*$b;
