@@ -17,29 +17,17 @@
 
             switch($amal){
                 case '+': 
-                    return $this->qoshish(new Qoshish());
+                    return $this->calculation(new Qoshish());
                 case '-': 
-                    return $this->ayirish(new Ayirish());
+                    return $this->calculation(new Ayirish());
                 case '*': 
-                    return $this->kopaytirish(new Kopaytirish());
+                    return $this->calculation(new Kopaytirish());
                 case '/': 
-                    return $this->bolish(new Bolish());
+                    return $this->calculation(new Bolish());
             }
         }
 
-        private function qoshish(BaseInterface $amal){
-            return $amal->run($this->a, $this->b);
-        }
-
-        private function ayirish(BaseInterface $amal){
-            return $amal->run($this->a, $this->b);
-        }
-
-        private function kopaytirish(BaseInterface $amal){
-            return $amal->run($this->a, $this->b);
-        }
-
-        private function bolish(BaseInterface $amal){
+        private function calculation(BaseInterface $amal){
             return $amal->run($this->a, $this->b);
         }
     }
